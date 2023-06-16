@@ -1,0 +1,62 @@
+.reviewsOfDesign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 15px;
+  gap: 10px;
+  width: 318px;
+  height: 255.25px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+p, .name, .comm {
+  color: black;
+}
+
+.comm span {
+  opacity: 0.8;
+}
+.comm i {
+  opacity: 0.4;
+}
+
+.nameAndNick {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+}
+
+.infoOfPublish {
+  width: 199px;
+  height: 18px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 125%;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.publishedAndBurgerBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}

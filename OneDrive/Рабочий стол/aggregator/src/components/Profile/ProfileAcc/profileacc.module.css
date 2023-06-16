@@ -1,0 +1,124 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.formBlocks {
+  width: 360px;
+  height: 430px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 5px 1px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 1px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.formBlocks .profileText {
+  width: 100%;
+  height: 95px;
+  background-color: #0E53B4;
+  border-radius: 8px 8px 0 0;
+}
+.formBlocks .profileText h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: #FAFDFE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 30px;
+}
+.formBlocks .profileText p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+.formBlocks .dataUsers {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+}
+.formBlocks .dataUsers label {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 125%;
+  color: rgba(0, 0, 0, 0.5);
+}
+.formBlocks .dataUsers textarea {
+  width: 100%;
+  max-width: 302px;
+  height: 40px;
+  resize: none;
+  border-bottom: 1px solid #A7AAB1;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 125%;
+  color: black;
+}
+.formBlocks .dataUsers .formUsers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  max-width: 302px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+.formBlocks .dataUsers .formUsers .users {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.formBlocks .dataUsers .formUsers .users h3 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125%;
+  color: #000000;
+  padding-bottom: 5px;
+}
+.formBlocks .dataUsers .formUsers .users h5 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: rgba(0, 0, 0, 0.5);
+}

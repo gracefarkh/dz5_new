@@ -1,0 +1,109 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 120px;
+}
+
+.h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+.p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+  margin-top: 15px;
+}
+
+.blocks {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 60px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.block {
+  width: 438px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 20px;
+  gap: 14px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 1px 40px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  /*padding-bottom: 22px*/
+}
+
+.block .between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.block h3 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 60px;
+  color: #000000;
+}
+
+.block .ul ul {
+  padding: 20px;
+}
+
+.block .ul ul li {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 22px;
+}
+
+.link h4 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #DB3C3C;
+}

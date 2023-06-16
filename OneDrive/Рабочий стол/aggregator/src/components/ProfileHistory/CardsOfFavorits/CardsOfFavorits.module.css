@@ -1,0 +1,56 @@
+.bluePart_profilefavorits {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 0px 10px 20px;
+  gap: 137px;
+  width: 386px;
+  height: 47px;
+  background: #0e53b4;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.CardsOfFavorits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 386px;
+  height: 248px;
+
+  border-radius: 8px;
+}
+
+p {
+  color: aliceblue;
+}
+
+.descriptionText_aboutDesign {
+  color: black;
+}
+
+.rateInDigital {
+  color: black;
+}
+
+.familyDes {
+  display: flex;
+  justify-content: space-between;
+  width: 357px;
+}
+
+.imageSize {
+  width: 386px;
+  height: 100px;
+}
+
+.eye_and_rate {
+  display: flex;
+}
+
+.more {
+  margin-left: 76px;
+}

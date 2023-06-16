@@ -1,0 +1,46 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  width: 1200px;
+  margin-top: 120px;
+}
+
+.left span {
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 85px;
+  width: 360px;
+  color: #0084FF;
+}
+
+.left h2 {
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 85px;
+  width: 360px;
+  color: #000000;
+}
+
+.left h3 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 125%;
+  padding-top: 20px;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+
+.right {
+  width: 537px;
+  height: 358px;
+}

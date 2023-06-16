@@ -1,0 +1,69 @@
+.body {
+  background-color: #050505;
+}
+.body .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.body .container .allBlock {
+  margin-top: 100px;
+}
+.body .container .allBlock .columnBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.body .container .allBlock h2 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.body .container .allBlock .column .local {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+}
+.body .container .allBlock .column .local p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F8ECEC;
+}
+.body .container .allBlock .column .li {
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 10px;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+  color: rgba(255, 255, 255, 0.8);
+}
+.body .container .allBlock .column .columnGap > * {
+  margin-right: 20px;
+}
+.body .container .foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid gray;
+  margin-top: 50px;
+  padding-top: 50px;
+}

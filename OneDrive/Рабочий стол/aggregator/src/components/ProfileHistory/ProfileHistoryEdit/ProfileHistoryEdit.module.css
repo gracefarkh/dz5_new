@@ -1,0 +1,229 @@
+.for2Blocks {
+  width: 362px;
+  height: 428px;
+  background: #ffffff;
+  -webkit-box-shadow: 5px 1px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 1px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.profile_Block {
+  width: 362px;
+  height: 95px;
+  background: #0e53b4;
+  border-radius: 8px 8px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 17px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 4px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.for3Components {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 776px;
+  height: 528px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 47px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.for2MainBlocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.infoBlock {
+  margin-left: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 4px;
+}
+
+.iconicImages {
+  width: 32px;
+  height: 32px;
+}
+
+.names {
+  color: black;
+}
+
+.name {
+  width: 777px;
+  height: 28px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.blocksWithImages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.adresses {
+  color: black;
+}
+
+.imagesBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.forTextsWithInfo {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.secondBlock_With_Info {
+  height: 255px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 34px;
+  margin-top: 20px;
+}
+
+.editBtn {
+  width: 773px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #0e53b4;
+  border-radius: 8px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.editText {
+  width: 158px;
+  height: 28px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 125%;
+  color: #0e53b4;
+}
+
+.editImage {
+  width: 32px;
+  height: 23px;
+}
+
+.input {
+  width: 288px;
+  height: 26px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 125%;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.lines {
+  width: 288px;
+  height: 1px;
+  color: black;
+  background-color: black;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 125%;
+}
+
+.profile_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 125%;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+  color: #FAFDFE;
+}
+
+.p_with_text_profile {
+  width: 125px;
+  height: 20px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  text-align: center;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.nameOfUser {
+  width: 65px;
+  height: 28px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 125%;
+  color: #121212;
+}
+
+.surNameofUser {
+  width: 65px;
+  height: 28px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 125%;
+  color: #121212;
+}

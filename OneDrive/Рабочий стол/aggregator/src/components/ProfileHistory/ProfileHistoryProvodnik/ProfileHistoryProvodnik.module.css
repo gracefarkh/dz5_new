@@ -1,0 +1,91 @@
+.blueBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 431px;
+  height: 860px;
+  background: #072755;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: fixed;
+}
+.blueBlock .blockWithAvatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 253px;
+}
+.blueBlock .blockWithAvatar .img {
+  width: 23px;
+  height: 23px;
+}
+.blueBlock .blockWithAvatar .name {
+  width: 105px;
+  height: 45px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 125%;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+  color: #FAFDFE;
+}
+.blueBlock .blockWithAvatar > p {
+  color: red;
+}
+.blueBlock .navigationBar {
+  height: 342px;
+  width: 431px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.blueBlock .navigationBar .img {
+  width: 23px;
+  height: 23px;
+}
+.blueBlock .navigationBar h4 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 125%;
+  color: #FAFDFE;
+}
+.blueBlock .navigationBar > div {
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+}
+.blueBlock .navigationBar .active_block {
+  background: rgba(255, 255, 255, 0.1);
+  border-left: 5px solid #0E53B4;
+}
