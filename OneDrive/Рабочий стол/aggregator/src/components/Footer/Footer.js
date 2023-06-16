@@ -5,7 +5,7 @@ import logo from '../../assets/other/logo.svg';
 import appStore from '../../assets/footer/appStore.svg';
 
 const Footer = () => {
-    //qwerty
+    //qwerty Aizhamal
     const columnData = [
         {
             title: 'О нас',
